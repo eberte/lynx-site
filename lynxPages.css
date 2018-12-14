@@ -1,0 +1,11 @@
+.twoColumnLeft {
+  float: left;
+  width: 15%;
+  margin: 10px;
+}
+.twoColumnRight {
+  float: left;
+  width: auto;
+  margin-top: 5px;
+  margin: 10px;
+}
