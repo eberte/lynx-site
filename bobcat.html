@@ -1,7 +1,8 @@
 <html lang='en-US'>
-<link href = 'lynxPages.css' rel = 'stylesheet' />
+<link href = 'lynxPages.css' rel = 'stylesheet'/>
   <style>
     body {
+      column-count: 2;
     }
     h1 {
       color: maroon;
@@ -19,6 +20,9 @@
       border-style: solid;
       border-color: navy;
     }
+    #leftColumn {
+      column-span: 1;
+    }
   </style>
 
   <head>
@@ -26,7 +30,7 @@
   </head>
 
   <body>
-    <div class = 'twoColumnLeft'>
+    <div class = 'twoColumnLeft' id = 'leftColumn'>
       <a href = 'index.html'>Home </a> <br />
       <a href = 'legacy.html'>Legacy </a> <br />
       <a href = 'bobcat.html'>Bobcat </a> <br />
@@ -36,7 +40,7 @@
       <a href = #>Resources </a> <br />
       <a href = #>Gallery </a> <br />
     </div>
-    <div class = 'twoColumnRight'>
+    <div class = 'twoColumnRight' id = 'rightColumn'>
       <div id = 'intro'>
         <p>
             The bobcat (<i>Lynx Rufus</i>) is also known as the bay lynx or wildcat.
@@ -65,9 +69,9 @@
       <div id = 'population'>
         <h3>Population</h3>
         <p>
-          The bobcat's mating season is usually in the late-winter and it'll take about 50-60 days to produce 1-6 baby bobcats, or kittens.
-          All these kittens have resulted in a bobcat population that could be anywhere from 2-3 million.
-          They usually live about 7 years and die due to hunters, themselves, and even diseases from eating rodents contaminated with rat poison.
+          The bobcat's mating season is usually in the late-winter and the gestation period will take about 50-60 days to give birth to 1-6 baby bobcats, or kittens.
+          The bobcat population could be anywhere from 2-3 million.
+          Their lifespan usually lasts about 7 years and some threats include hunters, other bobcats, and even diseases from eating rodents contaminated with rat poison.
         </p>
       </div>
       <!--End of Population-->
