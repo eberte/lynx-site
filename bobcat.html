@@ -1,8 +1,9 @@
 <html lang='en-US'>
-<link href = 'lynxPages.css' rel = 'stylesheet'/>
+
   <style>
     body {
-      column-count: 2;
+      display: grid;
+
     }
     h1 {
       color: maroon;
@@ -12,7 +13,8 @@
       color: navy;
     }
     p {
-      width: 50%
+      width: 50%;
+      border-style: solid;
     }
     #populationmap {
       width: 250;
@@ -20,12 +22,11 @@
       border-style: solid;
       border-color: navy;
     }
-    #leftColumn {
-      column-span: 1;
-    }
   </style>
+<link href = 'lynxPages.css' rel = 'stylesheet'/>
   <body>
-    <div class = 'twoColumnLeft' id = 'leftColumn'>
+    <center> <h1>The Bobcat</h1> </center>
+    <div class = 'twoColumnLeft' style = 'border-style: solid'>
       <a href = 'index.html'>Home </a> <br />
       <a href = 'legacy.html'>Legacy </a> <br />
       <a href = 'bobcat.html'>Bobcat </a> <br />
@@ -35,9 +36,8 @@
       <a href = #>Resources </a> <br />
       <a href = #>Gallery </a> <br />
     </div>
-    <div class = 'twoColumnRight' id = 'rightColumn'>
-      <center> <h1>Page Title</h1> </center>
-      <div id = 'intro'>
+    <div class = 'twoColumnRight'>
+      <div id = 'intro' >
         <p>
             The bobcat (<i>Lynx Rufus</i>) is also known as the bay lynx or wildcat.
             It has large paws, long legs, a short body, and tufted ears.

@@ -1,6 +1,6 @@
 .twoColumnLeft {
   float: left;
-  width: auto;
+  width: min-content;
   margin: 10px;
 }
 .twoColumnRight {
